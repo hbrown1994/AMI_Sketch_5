@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>1</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Hunter's Final Project">
+    <meta name="author" content="Hunter Brown">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+  </head>
+    <body>
+        <a-scene>
+          <!--List A-Frame Assests --------------------------------------------------------->
+          <a-assets>
+              <audio id="audio" src="audio/1.mp3"></audio>
+          </a-assets>
+          <!--Sound Definition --------------------------------------------------------->
+          <a-sound id= "playback" src="#audio" autoplay="true" loop="true"></a-sound>
+          <!--Background --------------------------------------------------------->
+          <a-sky id="bg" src="images/1.png" rotation="0 -130 0"></a-sky>
+        </a-scene>
+    </body>
+</html>

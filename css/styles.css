@@ -1,0 +1,57 @@
+/*------------------ Whole Document ------------------*/
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+
+/*------------------ Images ------------------*/
+.image_1{
+  position: relative;
+  display: inline;
+  flex-direction: row;
+  cursor: crosshair;
+}
+
+.image_1:hover{
+  animation: image_transform 50ms infinite;
+}
+
+/*------------------ KeyFrame Animations ------------------*/
+@keyframes image_transform {
+  0%{
+    opacity:  0.75682706832886;
+  }
+  10%{
+    opacity: 0.33931216001511;
+  }
+  20%{
+  opacity: 0.95989722013474;
+  }
+  30%{
+  opacity: 0.18937538862228;
+  }
+  40%{
+    opacity: 0.10602145195007;
+  }
+  50%{
+    opacity: 0.84389908313751;
+  }
+  60%{
+    opacity: 0.90915765762329;
+  }
+  70%{
+    opacity: 0.80856258869171;
+  }
+  80%{
+    opacity: 0.29815226793289;
+  }
+  90%{
+    opacity: 0.79331390857697;
+  }
+  100%{
+    opacity: 1.0;
+  }
+}
